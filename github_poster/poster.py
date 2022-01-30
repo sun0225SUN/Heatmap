@@ -16,7 +16,7 @@ class Poster:
         self.length_range_by_date_dict = defaultdict(ValueRange)
         self.units = "metric"
         self.colors = {
-            "background": "#00FFFFFF",
+            "background": "#151515",
             "text": "#FFFFFF",
             "special": "#FFFF00",
             "track": "#4DD2FF",
