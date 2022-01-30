@@ -11,7 +11,7 @@ DOM_BOX_DICT = {
     3: {"dom": DOM_BOX_TUPLE_LIST_FOR_THREE},
 }
 
-DEFAULT_DOM_COLOR = "#151515"
+DEFAULT_DOM_COLOR = "#444444"
 MONTH_NAMES = [
     "Jan",
     "Feb",
