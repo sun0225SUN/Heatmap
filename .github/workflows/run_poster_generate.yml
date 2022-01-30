@@ -43,6 +43,12 @@ jobs:
           pip install -r requirements.txt
         if: steps.pip-cache.outputs.cache-hit != 'true'
 
+
+
+      - name: Run sync ns script
+        run: |
+          python -m github_poster gpx --gpx_dir ~/Running/GPX_OUT/
+
       - name: Run sync ns script
         if: contains(env.TYPE, 'ns')
         run: |
